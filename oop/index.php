@@ -15,8 +15,7 @@
 
     <p>
         <?php
-        $obj = new Person();
-        $obj->behavour('pwamly');
+        $obj = new Person('pwamly');
         $nam = $obj->name;
         echo "$nam";
 
