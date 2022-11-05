@@ -1,6 +1,6 @@
 <?php
 
-class Person
+class House
 {
     public $name;
     private $age;
@@ -10,7 +10,7 @@ class Person
     public function __construct($alchol)
     {
         $this->name = $alchol;
-        echo "he is drinking alchol,";
+        echo "house,";
 
     }
 
@@ -25,6 +25,7 @@ class Person
     public static function setAdultAge($adt)
     {
         self::$adultage = $adt;
+        echo 'fffffffffffffffffffffff';
         return self::$adultage;
     }
 }

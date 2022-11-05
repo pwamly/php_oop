@@ -1,6 +1,7 @@
-<?php include 'includes/person.inc.php';
+<?php
+include 'includes/index.php'
 
-?>
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +22,8 @@
         
         echo Person::$adultage;
         echo Person::setAdultAge(22);
+        echo House::$adultage;
+        echo House::setAdultAge(22);
 
         ?>
     </p>
