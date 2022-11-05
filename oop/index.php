@@ -15,9 +15,12 @@
 
     <p>
         <?php
-        $obj = new Person('pwamly');
-        $nam = $obj->name;
-        echo "$nam";
+        // $obj = new Person('pwamly');
+        // $nam = $obj->name;
+        // echo "$nam";
+        
+        echo Person::$adultage;
+        echo Person::setAdultAge(22);
 
         ?>
     </p>

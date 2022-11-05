@@ -4,6 +4,7 @@ class Person
 {
     public $name;
     private $age;
+    public static $adultage = 18;
 
 
     public function __construct($alchol)
@@ -18,6 +19,13 @@ class Person
     {
 
 
+    }
+
+
+    public static function setAdultAge($adt)
+    {
+        self::$adultage = $adt;
+        return self::$adultage;
     }
 }
 
