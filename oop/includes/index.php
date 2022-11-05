@@ -10,6 +10,10 @@ function myAutoloader($className)
     $extension = '.class.php';
     $fullpath = $path . strtolower($className) . $extension;
 
+    if (!file_exists($fullpath)) {
+        return false;
+    }
+
     include_once $fullpath;
 
 }

@@ -25,7 +25,6 @@ class House
     public static function setAdultAge($adt)
     {
         self::$adultage = $adt;
-        echo 'fffffffffffffffffffffff';
         return self::$adultage;
     }
 }

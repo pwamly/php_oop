@@ -25,7 +25,6 @@ class Person
     public static function setAdultAge($adt)
     {
         self::$adultage = $adt;
-        echo self::$adultage;
         return self::$adultage;
     }
 }
