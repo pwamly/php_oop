@@ -1,4 +1,5 @@
 <?php
+
 include 'includes/index.php'
 
     ?>
@@ -14,19 +15,19 @@ include 'includes/index.php'
 
 <body>
 
-    <p>
-        <?php
-        // $obj = new Person('pwamly');
-        // $nam = $obj->name;
-        // echo "$nam";
-        
-        echo Person::$adultage;
-        echo Person::setAdultAge(22);
-        echo House::$adultage;
-        echo House::setAdultAge(22);
+    <form action="">
+        <p>My own calculator</p>
+        <input type="number" name="number1" placeholder="first number">
+        <input type="number" name="number2" placeholder="second number">
+        <select name="oper" id="">
+            <option value="add">Addition</option>
+            <option value="sub">Substraction</option>
+            <option value="mult">Multiplication</option>
+            <option value="div">Division</option>
+        </select>
+        <button type="submit" name="submit">Calculate</button>
+    </form>
 
-        ?>
-    </p>
 </body>
 
 </html>
